@@ -1,0 +1,18 @@
+//Write a program in c to check whether a line is straight line or not.
+#include<stdio.h>
+int main()
+{
+float y,m,x,c;
+printf("Enter the values of Y,X,M and C:\n");
+scanf("%f%f%f%f",&y,&x,&m,&c);
+float a=(m*x)+c;
+if(y==a)
+{
+    printf("It is a straight line\n");
+}
+else
+{
+    printf("It is not a straight line\n");
+}
+}
+
