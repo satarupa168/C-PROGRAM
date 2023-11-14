@@ -1,7 +1,6 @@
 //Write a program in c to check whether a person is eligible to vote or not.
 #include<stdio.h>
-int main()
-{
+int main(){
 int age,b;
 printf("Enter birth year:\n");
 scanf("%d",&age);
